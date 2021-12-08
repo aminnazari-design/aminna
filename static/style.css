@@ -1,0 +1,292 @@
+body{
+    /* background-image: linear-gradient(to bottom right ,  #000428 , #004e92) ; */
+    color: khaki;
+}
+.navbar-brand{
+margin-left: 1rem;
+}
+form{
+    width: 30%;
+    margin: auto auto;
+    /* text-align: center; */
+}
+form button {
+    margin-top: 1rem;
+}
+/* image{
+width: 2rem;
+height: 2rem;
+} */
+main{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20rem;
+    padding-top: 10rem;
+    align-items: center;
+    /* align-self: center; */
+}
+.form-control{
+margin-right: 1rem;
+text-decoration: none;
+}
+
+footer{
+position: relative;
+/* bottom: ; */
+/* top: 10rem; */
+/* margin-top: 1rem; */
+width: 100%;
+height: 10rem;
+background-color: rgb(189, 151, 87);
+text-align: center;
+/* margin-top: 20rem; */
+}
+/* footer ul{
+
+/* /* text-align: center; */
+/* background-color: red; */
+/* }  */
+li{
+list-style: none;
+}
+i{
+width: 1rem;
+height: 1rem;
+color: silver;
+}
+i:hover{
+color: snow;
+}
+.bi-gear{
+margin-left: 1rem;
+}
+.form-inline{
+/* width: 20%; */
+margin-right: 1rem;
+}
+.product{
+width: 20rem;
+height: auto;
+border:  red solid 1px ;
+border-radius: 2rem;
+margin-top: 1rem;
+padding: 1rem 1rem;
+background-color: #6bc0fa;
+}
+.product img {
+    margin: 1rem 1rem;
+}
+.add-btn{
+    width: 6rem;
+    height: 2rem;
+    background-color: #fa4848;
+    text-align: center;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+.remove-btn{
+    width: 2rem;
+    height: 2rem;
+    background-color: #6df768;
+    text-align: center;
+    border-radius: .5rem;
+}
+.bought-numbers{
+display: none;
+}
+.apoplogy{
+    width: 50%;
+    height: 20rem;
+    margin: auto auto;
+    text-align: center;
+    margin-top: 10rem;
+    border: black solid 1px;
+    border-radius: 2rem;
+    background-color: sandybrown;
+}
+.settings-navbar{
+height: 100%;
+text-align: left;
+float: left;
+margin: 0 0 ;
+border-right: black solid 1px;
+border-left: black solid 1px;
+padding-right: 1rem;
+padding-left: .5rem;
+margin-left: 1rem;
+}
+main{
+height: 20rem;
+background-image: linear-gradient(to bottom right ,  #000428 , #004e92) ;
+height: 100%;
+/* margin: 0 0 ;
+padding: 0 0 ; */
+/* background-color: black; */
+}
+.settings-navbar a{
+text-decoration: none;
+}
+/* .apoplogy h3 {
+    border-bottom: black solid 1px;
+} */
+.intro {
+padding-top: 3rem;
+text-align: center;
+color: khaki;
+padding-bottom: 10rem;
+/* background-image: linear-gradient(to bottom right ,  #000428 , #004e92) ; */
+/* background-image: url(""); */
+/* height: 25rem; */
+}
+ .container{
+position: relative;
+/* top: 5rem; */
+display: flex;
+flex-direction: row;
+/* align-items: center; */
+padding-bottom: 10rem;
+}
+.col{
+text-align: center;
+/* background-color: #70c1fa; */
+/* border: black solid 1px; */
+/* border-radius: 1rem; */
+height: auto; 
+}
+.title{
+text-align: center;
+color: #ec8bf7;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+.second{
+    color: silver;
+}
+.support-part{
+    /* width: 60%;
+    height: 10rem; */
+    background-image: url("../static/pics/main2.jpg") ;
+/* background-image: linear-gradient(to bottom right ,  #000428 , #004e92) , url("../static/pics/main.jpg");  */
+text-align: center;
+}
+.others{
+    border-radius: 6rem;
+    z-index: 5;
+    /* margin-bottom: 8rem; */
+}
+.support-image{
+     z-index: 1;
+     /* position: relative; */
+    /* width: 2rem;
+    height: 2rem; */
+    /* background-size: cover; */
+}
+.register-btn{
+    /* width: 30%; */
+    text-align: center;
+}
+.support-part ul {
+    width: 70%;
+}
+table{
+    margin-top: 3rem;
+    /* width: 100%; */
+}
+/* .main-form{
+    width: 7rem;
+} */
+table th {
+    text-align: center;
+}
+.suc_part{
+    text-align: center;
+}
+.ok-buy{
+    text-align: center;
+    font-size: 8rem;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+    margin-top: 10rem;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    height: 24rem;
+    /* background: #fff;
+     */
+    background-color: #004e92;
+    color: burlywood;
+    /* Center slide text vertically */
+    /* display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center; */
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .swiper-slide p {
+      font-size: 14px;
+  }
+
+  /* .swiper-slide img {
+
+  padding-top: 1rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+    /* display: block; */
+    /* width: 100%; */
+    /* height: 100%; */
+    /* object-fit: cover; */
+  /* }  */
+  .suc_part a {
+      text-decoration: none;
+  }
+@media screen and (width: 1440px) {
+/* .responsive{
+    display: flex;
+    flex-direction: column;
+} */
+.register-btn{
+    width: 20%;
+}
+}
+@media screen and (width: 1280px) {
+    .register-btn{
+        width: 40%;
+    }    
+}

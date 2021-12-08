@@ -1,0 +1,75 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Index
+{% endblock %}
+
+
+{% block main %}
+<div class="intro w-100">
+<h2>Welcome to project.com</h2>
+<!-- <img src="/pics/main.jpg" alt=""> -->
+<h5>This website allow you to buy amazon products</h5>
+</div>
+ <h3 class="title">Our accessories</h3>
+ <div class="container">
+    <div class="row">
+      <div class="col">
+        <h4>Searching</h4>
+        <p>With this site you can search through thousands of amazon products</p>
+      </div>
+      <div class="col">
+        <h4>purchasing</h4>
+        <p>You can purchase any product You want</p>
+      </div>
+      <div class="col">
+        <h4>Make Yourself a profile</h4>
+        <p>You can easily login and logout and register or change your password</p>
+      </div>
+    </div>
+  </div> 
+  <div class="d-flex flex-column align-items-center support-part">
+    <!-- <img class="support-image" src="../static/pics/main.jpg " alt=""> -->
+    <div class="others">
+      <h4>Our support team</h4>
+    <p>Our support team is always ready to help You with Your problems</p>
+    <h5>You can:</h5>
+    <ul class="d-flex flex-column align-items-start ">
+      <li>Contact us through phone number</li>
+      <li>Contact Our team through email</li>
+    </ul>
+    </div>
+    
+  </div>
+  <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        {% for API_INFO in API_INFOS %}
+        <div class="swiper-slide">
+          <img src= "{{API_INFO['pic']}}" alt="" class="img-fluid">
+        <p id="title">{{API_INFO["description"]}}</p>
+
+        <!-- <p >Rating:{{API_INFO["rating"]}}</p> -->
+        <p id="price">Price:{{API_INFO['price']}}</p>
+        
+            <!-- <p class="bought-numbers"></p> -->
+            <!-- <button type="submit" class="add-btn">Add to cart</button> -->
+        </div>
+        
+        {% endfor %}
+      </div>
+      <!-- <div class="swiper-pagination"></div> -->
+    </div>
+  
+
+
+
+    
+    <!-- <div class="product">
+        
+        
+    </div> -->
+    
+    
+
+
+{% endblock %}

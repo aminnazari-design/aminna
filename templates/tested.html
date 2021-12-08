@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+
+{% block title %}
+Register
+{% endblock %}
+
+
+
+{% block main %}
+<div class="products d-flex flex-row flex justify-content-around flex-wrap">
+    
+    {% for API_INFO in API_INFOS %}
+    <div class="product">
+        <img src= "{{API_INFO['pic']}}" alt="" class="img-fluid">
+        <p id="price">Price:{{API_INFO['price']}}</p>
+        <p >Rating:{{API_INFO["rating"]}}</p>
+        <p id="title">{{API_INFO["description"]}}</p>
+        
+            <!-- <p class="bought-numbers"></p> -->
+            <button type="submit" class="add-btn">Add to cart</button>
+        
+    </div>
+    
+    {% endfor %}
+
+
+</div>
+
+
+
+
+{% endblock %}

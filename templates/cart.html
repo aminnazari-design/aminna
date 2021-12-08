@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+{%  block title %}
+APOLOGY
+{% endblock %}
+
+{% block main %}
+<table class="table table-hover table-dark">
+    <thead>
+      <tr>
+        <th scope="col">Name</th>
+        <th scope="col">price</th>
+        <th scope="col"></th>
+        <!-- <th scope="col">Handle</th> -->
+      </tr>
+    </thead>
+    <tbody>
+        {% for BUY in BUYS %}
+      <tr>
+        
+        <td class="prod-name">{{BUY['product']}}</td>
+        <td>{{BUY['price']}}</td>
+        <td><button type="button" class="btn btn-outline-warning">delete</button></td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  <div class="suc_part">
+  <button class="btn btn-warning"><a href="/success_buy">purchase</a></button>
+  </div>
+{% endblock %}
