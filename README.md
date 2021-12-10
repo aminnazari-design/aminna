@@ -1,4 +1,4 @@
-# YOUR PROJECT TITLE 
+# Amazon_copy
 #### Video Demo:  <https://youtu.be/QMjsjlV8cOc> 
 #### Description :  
 This project is a Webapplication python project. Its backend is desigend with flask and the frontend is basicly some html pages with styles . You can Register with E-mail and You will recieve an E-mail and You can continue Your registeration with a link in Your E-mail . You have the ability to Login and Logout and change Your password or recover it. The main function of this site is that You can get Amazon.com 's products and you can add or remove them from your shoppingcart.
