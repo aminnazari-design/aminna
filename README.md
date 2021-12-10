@@ -21,3 +21,5 @@ Database file including 2 tables. One for Users and the Other for shoppingcart d
 *first an api was used for data* Then i decided that I extract data myself. and the small delay for loading some pages is related to this.
 for transforming data in 2 functions i used javascript and ajax . Later there can be a new ability be enabled that purchase something for real but this at first step needs a real shop and something further than just a simple web developing and designing.
 
+The website basicly provide You with some amazon data. In addition to that You are able to add them to your cart . You can also change Your password or recover it if You have forgotten it
+
