@@ -44,6 +44,9 @@ try these codes in your termianl :
 
 `$env:FLASK_APP = "application.py"`
 
+To run the application :
+
+`flask run`
 #### Swiper
 the swiper is used from https://swiperjs.com
 You can go visit diffrent Swipers and  use them.
